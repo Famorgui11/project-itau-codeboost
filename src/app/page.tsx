@@ -1,5 +1,7 @@
-import Image from "next/image";
+import SectionHero from "@/components/sectionHero";
 
-export default function Home() {
-	return <h1>Itau - CodeBOOST</h1>;
-}
+const Home = () => {
+	return <SectionHero />;
+};
+
+export default Home;

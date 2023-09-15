@@ -1,7 +1,13 @@
 import SectionHero from "@/components/sectionHero";
+import SectionServices from "@/components/sectionServices";
 
 const Home = () => {
-	return <SectionHero />;
+	return (
+		<>
+			<SectionHero />
+			<SectionServices />
+		</>
+	);
 };
 
 export default Home;
